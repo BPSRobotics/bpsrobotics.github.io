@@ -23,7 +23,7 @@
 /* Fonts */
 @font-face{
   font-family: agencyfb;
-  src: url(agency-fb.ttf)
+  src: url(fonts/agency-fb.ttf)
 }
 
 /* Stylesheet */
@@ -220,4 +220,8 @@ nav a.active {
 nav a.active:hover {
     background-color: #793600;
     transition-duration: 0.4s;
+}
+
+#number{
+    font-family: agencyfb;
 }
