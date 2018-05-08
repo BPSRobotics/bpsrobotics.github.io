@@ -21,7 +21,7 @@
 }
 
 /* Fonts */
-agency-fb{
+@font-face{
   font-family: agencyfb;
   src: url(agency-fb.ttf)
 }
