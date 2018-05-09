@@ -987,8 +987,9 @@
 		color: #d8d8d8;
 		padding: 14em 0;
 		text-align: center;
-		position: relative;
-	}
+        position: relative;
+        z-index: 1;
+    }
 
 		#banner:before {
 			content: '';
