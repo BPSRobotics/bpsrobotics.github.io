@@ -53,7 +53,7 @@
 	a
 	{
 		text-decoration: none;
-		color: #ff0000;
+		color: #a200ff;
 	}
 	
 	a:hover
@@ -290,7 +290,7 @@
 			display: inline-block;
 			margin-top: 0.5em;
 			padding: 1em 1.5em;
-			background: #c61732;
+			background: #a317c6;
 			border-radius: 6px;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -306,7 +306,7 @@
 
 			.button:hover
 			{
-				background: #ad142c;
+				background: #79258a;
 				color: #FFF !important;
 			}
 			
@@ -829,7 +829,7 @@
 
 			#nav li.active a
 			{
-				background: #c61732;
+				background: #a317c6;
 				border-radius: 5px;
 				color: #FFF;
 			}
@@ -964,7 +964,7 @@
 	#featured
 	{
 		position: relative;
-		background: url(images/featured-wrapper-bg.jpg) repeat;
+		background-color: #670d79;
 		text-align: center;
 		color: #FFF;
 	}
