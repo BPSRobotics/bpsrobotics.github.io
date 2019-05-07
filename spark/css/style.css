@@ -197,7 +197,7 @@
 
 		ul.default
 		{
-			list-style: none;
+			list-style: circle;
 			margin: 0;
 			padding: 0;
 		}
