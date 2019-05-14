@@ -1026,36 +1026,36 @@
 /*********************************************************************************/
 #slideshow {
   overflow: hidden;
-  height: 960px;
-  width: 1280px;
+  height: 480px;
+  width: 640px;
   margin: 0 auto;
 }
 
 .slide-wrapper {
-  width: 5120px;
+  width: 2560px;
   -webkit-animation: slide 18s ease infinite;
 }
 
 .slide {
   float: left;
-  height: 960px;
-  width: 1280px;
+  height: 480px;
+  width: 640px;
 }
 
 .slide:nth-child(1) {
-  background: url(../images/spark1.jpg);
+  background: url(../images/spark1.png);
 }
 
 .slide:nth-child(2) {
-  background: url(../images/spark2.jpg);
+  background: url(../images/spark2.png);
 }
 
 .slide:nth-child(3) {
-  background: #36BF66;
+  background: url(../images/spark3.png);
 }
 
 .slide:nth-child(4) {
-  background: #D9D055;
+  background: url(../images/spark4.png);
 }
 
 .slide-number {
@@ -1066,10 +1066,10 @@
 
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}
-  30% {margin-left: -1280px;}
-  50% {margin-left: -1280px;}
-  60% {margin-left: -2560px;}
-  70% {margin-left: -2560px;}
-  80% {margin-left: -3840px;}
-  90% {margin-left: -3840px;}
+  30% {margin-left: -640px;}
+  50% {margin-left: -640px;}
+  60% {margin-left: -1280px;}
+  70% {margin-left: -1280px;}
+  80% {margin-left: -1920px;}
+  90% {margin-left: -1920px;}
 }
